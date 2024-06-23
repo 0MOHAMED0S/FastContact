@@ -1,0 +1,82 @@
+:root {
+    --bs-border-color: #04936df7;
+    --bs--color: #04936df7;
+    --bs-navbar-brand-color: rgb(255 255 255) !important;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: var(--bs--color) !important;
+}
+.navbar-brand {
+    color: #f8f9fa !important;
+}
+/* .btn {
+    background-color: #d500ff;
+    color: #f8f9fa;
+    border: 2px solid white;
+}
+.btn:hover{
+background-color: #d400ff;
+color: white;
+} */
+.container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.g{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+nav
+{
+    background-color: rgb(209 0 255 / 21%) !important;
+}
+nav .logo i {
+    margin: 5px;
+    color: white;
+    background-color: #04936df7;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid white;
+
+}
+#phoneNumber{
+    max-width: 182px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.form-floating{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#center{
+    margin-bottom: 100px;
+    color: #04936df7;
+}
+footer{
+    height: 50px;
+    background: #04936df7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
